@@ -1,0 +1,23 @@
+# Build outputs
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Configurações sensíveis (NÃO commitar — usar appsettings.Example.json)
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+!appsettings.Example.json
+
+# Uploads de utilizadores
+hotel/wwwroot/images/properties/
+
+# IDE
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
